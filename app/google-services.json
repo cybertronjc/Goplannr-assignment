@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1098782453120",
+    "firebase_url": "https://goplannrassignment.firebaseio.com",
+    "project_id": "goplannrassignment",
+    "storage_bucket": "goplannrassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098782453120:android:128f062688e99f77",
+        "android_client_info": {
+          "package_name": "com.jagdishchoudhary.goplannr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098782453120-9n6pd21bbff59i44mgovbreg4oocc9dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA58mGK5yWuIZ2Aep_rd7JaXORXcWgzeZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098782453120-9n6pd21bbff59i44mgovbreg4oocc9dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

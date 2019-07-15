@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentA">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.jagdishchoudhary.goplannr.ui.Fragment1"
+        android:label="Fragment A"
+        tools:layout="@layout/fragment_fragment1">
+        <action
+            android:id="@+id/fragmentAtoB"
+            app:destination="@id/fragmentB"
+            app:enterAnim="@anim/fade_left"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.jagdishchoudhary.goplannr.ui.Fragment2"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_fragment2">
+        <action
+            android:id="@+id/fragmentBtoC"
+            app:destination="@id/fragmentC"
+            app:enterAnim="@anim/fade_left"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentC"
+        android:name="com.jagdishchoudhary.goplannr.ui.PlanFragment"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_fragment2">
+
+
+    </fragment>
+
+
+
+</navigation>
